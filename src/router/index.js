@@ -17,6 +17,11 @@ const routes = [
     name: 'Computed',
     component: () => import('../components/Computed.vue'),
   },
+  {
+    path: '/lifestyleandsetup',
+    name: 'lifeStye',
+    component: () => import('../components/lifeStyle.vue'),
+  },
 ];
 
 const router = createRouter({

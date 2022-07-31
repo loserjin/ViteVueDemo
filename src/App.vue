@@ -6,13 +6,16 @@
   <div>
     <div class="linkStyle">
       <span class="routerLink">
-        <h1><router-link to="/Home">Home</router-link></h1>
+        <h2><router-link to="/Home">Home</router-link></h2>
       </span>
       <span class="routerLink">
-        <h1><router-link to="/watchDemo">watchDemo</router-link></h1>
+        <h2><router-link to="/watchDemo">watchDemo</router-link></h2>
       </span>
       <span class="routerLink">
-        <h1><router-link to="/computedDemo">computedDemo</router-link></h1>
+        <h2><router-link to="/computedDemo">computedDemo</router-link></h2>
+      </span>
+      <span class="routerLink">
+        <h2><router-link to="/lifestyleandsetup">lifestyleandsetup</router-link></h2>
       </span>
     </div>
     <router-view></router-view>
