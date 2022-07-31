@@ -3,13 +3,13 @@
     <h1>watch试验</h1>
     <h2>{{ counter }}</h2>
     <button @click="changeCounter">changeCounter</button>
-    <h2>{{ user.name }}</h2>
-    <button @click="changeUseName">changeName</button>
+    <h2>{{ name }}</h2>
+    <button @click="changeUserName">changeName</button>
   </div>
 </template>
 
 <script>
-import { ref, reactive, watch, watchEffect } from 'vue';
+import { ref, reactive, watch,toRefs, watchEffect } from 'vue';
 export default {
   // 组合式API，将同一个逻辑关注点相关代码收集在一起
   name: 'Watch',
@@ -45,7 +45,7 @@ export default {
       console.log(user.name);
     });
 
-    return { counter, changeCounter, user, changeUserName };
+    return { counter, changeCounter, ...toRefs(user), changeUserName };
   },
 };
 </script>

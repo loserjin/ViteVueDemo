@@ -10,7 +10,12 @@ const routes = [
   {
     path: '/watchDemo',
     name: 'Watch',
-    component: ()=>import('../components/Watch.vue'), //路由懒加载
+    component: () => import('../components/Watch.vue'), //路由懒加载
+  },
+  {
+    path: '/computedDemo',
+    name: 'Computed',
+    component: () => import('../components/Computed.vue'),
   },
 ];
 

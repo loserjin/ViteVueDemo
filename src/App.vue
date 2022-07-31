@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+
+</script>
 
 <template>
   <div>
@@ -8,6 +10,9 @@
       </span>
       <span class="routerLink">
         <h1><router-link to="/watchDemo">watchDemo</router-link></h1>
+      </span>
+      <span class="routerLink">
+        <h1><router-link to="/computedDemo">computedDemo</router-link></h1>
       </span>
     </div>
     <router-view></router-view>
