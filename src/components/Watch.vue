@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'Watch',
   setup() {
     return {};
   },
