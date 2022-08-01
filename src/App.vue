@@ -17,6 +17,9 @@
       <span class="routerLink">
         <h2><router-link to="/lifestyleandsetup">lifestyleandsetup</router-link></h2>
       </span>
+       <span class="routerLink">
+        <h2><router-link to="/provide">provide</router-link></h2>
+      </span>
     </div>
     <router-view></router-view>
   </div>

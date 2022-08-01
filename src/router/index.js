@@ -22,6 +22,11 @@ const routes = [
     name: 'lifeStye',
     component: () => import('../components/lifeStyle.vue'),
   },
+  {
+    path: '/provide',
+    name: 'provide',
+    component: () => import('../components/Provide.vue'),
+  },
 ];
 
 const router = createRouter({
